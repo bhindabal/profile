@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Profile</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Tillana" rel="stylesheet">
+</head>
+<body style="background-color: #11088e">
+<h2 id="head">SPACEBOOK</h2>
+<input type="text" placeholder="First Name" id="fName">
+<input type="text" placeholder="Last Name" id="lName">
+<form id="g">
+<p id="Gender">Gender:</p>
+<label id="lmale"><input type="radio" value="Male" id="male"> Male</label>
+<label id="lfemale"><input type="radio" value="Female" id="female">  Female</label><p id="noGender"></p></form>
+<input type="text" placeholder="Please enter your email" id="email">
+<input type="number" placeholder="Please enter your phone number" id="phone">
+<select id="sign" required>
+<option value>Horoscope Sign</option>
+<option>Leo</option>
+<option>Capricorn</option>
+<option>Gemini</option>
+<option>Taurus</option>
+</select>
+<button id="btn" onclick="profile()" type="submit">SUBMIT</button>
+<p id="name" class="animated slideInLeft"></p>
+<p id="gender" class="animated slideInLeft"></p>
+<p id="eMail" class="animated slideInLeft"></p>
+<p id="Horoscope" class="animated slideInLeft"></p>
+<p id="PHONE" class="animated slideInLeft"></p>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
